@@ -7,10 +7,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions (
-        //features = "src/test/resources/features/inline_validation_colorlib.feature",
+        //features = "src/test/resources/features/block_validation_colorlib.feature",
         features = "src/test/resources/features",
-        tags = "@colorlib",
-        glue = "co.com.choucair.certification.proyectobase.dalvareza.stepdefinitions",
+        tags = "@bancolombia",
+        glue = {"co.com.choucair.certification.proyectobase.dalvareza.stepdefinitions", "co.com.choucair.certification.proyectobase.dalvareza.util"},
         snippets = SnippetType.CAMELCASE)
 public class RunnerTags {
 }

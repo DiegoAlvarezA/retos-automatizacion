@@ -1,4 +1,4 @@
-@colorlib
+@block
 Feature: Test Block Validation form
 
   Background: User is Logged In
